@@ -52,7 +52,7 @@
   margin: 13px auto;
   text-align: center;
   position: relative;
-  width: 380px;
+  width: 360px;
 }
 /* switch */
 .switch {
@@ -287,7 +287,7 @@ nav.main-menu li.active > a,
 .dashboard-page nav.dashboard-menu ul li.active a {
   color: #fff;
   border-radius: 40px;
-  letter-spacing: 1.1px;
+  /* letter-spacing: 1.1px; */
   transform: scale(1.05);
   transform-origin: center;
   background: linear-gradient(#032567, #04bac5);
@@ -301,6 +301,7 @@ nav.main-menu li.active > a,
 .button-class {
   height: 50px;
   width: 120px;
+
   border-radius: 50px;
   background: linear-gradient(#032567, #04bac5);
   border: none;
@@ -308,18 +309,19 @@ nav.main-menu li.active > a,
   text-align: center;
   text-transform: uppercase;
   /* bottom: 1px; */
-  right: 40px;
-  float: right;
-  margin: 25px;
+  right: 50%;
+  /* float: right; */
+
+  margin: 20px -60px 20px 0;
   text-align: left;
   font-size: 19px;
   color: white;
-  box-shadow: 0px 0px 15px 5px #0000004d;
-  position: relative;
+
+  position: absolute;
   line-height: 50px;
   padding-left: 13px;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
 }
 .button-class:hover .button-icon::before {
   /* transform: translateY(20px); */
@@ -328,8 +330,9 @@ nav.main-menu li.active > a,
 }
 .button-class:hover {
   background: transparent;
+  box-shadow: 0px 0px 15px 5px #0000004d;
   color: #021d69;
-  border: 1px solid #021d69;
+  /* border: 1px solid #021d69; */
 }
 
 .button-align {
@@ -339,5 +342,5 @@ nav.main-menu li.active > a,
   height: 100%;
   transition: 0.2s ease;
   font-size: 30px !important;
-  margin: 8px auto;
+  margin: 10px auto;
 }
