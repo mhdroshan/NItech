@@ -311,7 +311,7 @@ nav.main-menu li.active > a,
   /* right: 55px; */
   text-align: center;
   text-transform: uppercase;
-  bottom: 0;
+  /* bottom: 0; */
   right: 50%;
   /* float: right; */
 
