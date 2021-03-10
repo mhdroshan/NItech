@@ -18,7 +18,7 @@
 }
 .form-holder {
   position: relative;
-  height: 90vh;
+  height: 85vh;
 
   overflow: hidden auto;
 }
@@ -52,7 +52,7 @@
   margin: 13px auto;
   text-align: center;
   position: relative;
-  width: 400px;
+  width: 380px;
 }
 /* switch */
 .switch {
@@ -61,6 +61,7 @@
   margin-left: 34px;
   width: 45px;
   height: 20px;
+  /* margin-top: 10px; */
   left: 20px;
 }
 
@@ -302,18 +303,18 @@ nav.main-menu li.active > a,
   width: 120px;
   border-radius: 50px;
   background: linear-gradient(#032567, #04bac5);
-  border: 1px solid white;
+  border: none;
   /* right: 55px; */
   text-align: center;
   text-transform: uppercase;
   /* bottom: 1px; */
   right: 40px;
   float: right;
-  margin-bottom: 15px;
-  margin-right: 20px;
+  margin: 25px;
   text-align: left;
   font-size: 19px;
   color: white;
+  box-shadow: 0px 0px 15px 5px #0000004d;
   position: relative;
   line-height: 50px;
   padding-left: 13px;
