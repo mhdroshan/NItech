@@ -1,6 +1,6 @@
 .page-holder {
   height: 100%;
-  margin: 5px;
+  margin: 2px;
   position: relative;
   font-family: "Montserrat", sans-serif;
 }
@@ -15,6 +15,9 @@
 .menu-data {
   backdrop-filter: blur(4px);
   height: 100%;
+}
+.form-all {
+  height: 98vh;
 }
 .form-holder {
   position: relative;
@@ -308,7 +311,7 @@ nav.main-menu li.active > a,
   /* right: 55px; */
   text-align: center;
   text-transform: uppercase;
-  /* bottom: 1px; */
+  bottom: 0;
   right: 50%;
   /* float: right; */
 
